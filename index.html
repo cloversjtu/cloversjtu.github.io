@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Min Zeng — Postdoctoral researcher building large language models that keep pace with evolving medical knowledge and patient data in electronic health records." />
+  <meta name="author" content="Min Zeng" />
+  <title>Min Zeng</title>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+    rel="stylesheet"> -->
+  <link rel="stylesheet" href="assets/style.css?v=20261030b" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav nav-container" aria-label="Primary navigation">
+      <a class="brand" href="#home">Min Zeng</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#services">Services</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container section">
+      <div class="hero-copy">
+        <!-- <p class="eyebrow">Postdoctoral Research Associate · University of Minnesota</p> -->
+        <h1>Min Zeng<span class="name-cn"></span></h1>
+
+        <p class="lead">
+          I am Min Zeng, a Postdoctoral Research Associate at
+          <a href="https://twin-cities.umn.edu/" target="_blank" rel="noopener">University of Minnesota</a>, working
+          with Prof.
+          <a href="https://med.umn.edu/bio/rui-zhang" target="_blank" rel="noopener">Rui Zhang</a>.
+          I received my Ph.D. in Electronic and Computer Engineering from
+          <a href="https://hkust.edu.hk/" target="_blank" rel="noopener">HKUST</a>, advised by Prof.
+          <a href="https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo" target="_blank" rel="noopener">Yike
+            Guo</a>, and my Master's degree in Computer Science and Engineering from
+          <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a>, advised
+          by Prof.
+          <a href="https://www.cs.sjtu.edu.cn/en/jiaoshiml/luoyuan.html" target="_blank" rel="noopener">Yuan Luo</a>.
+        </p>
+
+
+        <div class="link-row" aria-label="Professional links">
+          <a href="mailto:min.zeng.u@gmail.com">Email</a>
+          <span>·</span>
+          <a href="https://scholar.google.com/citations?user=ADAQvlEAAAAJ&hl=en" target="_blank" rel="noopener">Google
+            Scholar</a>
+          <!-- <span>·</span> -->
+          <!-- <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener">GitHub</a>
+          <span>·</span>
+          <a href="assets/Min_Zeng_CV.pdf" target="_blank">CV</a> -->
+        </div>
+
+
+        <p class="notice collab-box">
+          <strong>I welcome collaborations</strong> with clinicians and researchers working on EHR data or
+          continual learning. Feel free to reach out via email.
+        </p>
+
+        <!-- I welcome collaborations. Feel free to reach out via email. -->
+
+        <!-- <h2 id="research" class="research-title">Research</h2> -->
+      </div>
+      <aside class="profile-card">
+        <img src="assets/IMG_7190.jpeg" alt="Portrait of Min Zeng" />
+        <div class="profile-meta">
+          <!-- <strong>Min Zeng</strong> -->
+          <!-- <span>Minneapolis, Minnesota</span> -->
+          <!-- <span>LLMs · Continual Learning · Clinical NLP</span> -->
+        </div>
+      </aside>
+    </section>
+
+
+
+    <section id="research" class="section container research-section">
+      <div class="section-heading">
+        <h2>Research</h2>
+      </div>
+
+
+
+      <p class="lead">
+        <span class="tagline">Medicine never stands still:</span> guidelines are revised, new evidence emerges, and patient records grow
+        with every encounter. I build <strong>large language models that keep pace with this
+          change</strong>&mdash;learning
+        continually from evolving medical knowledge and reasoning over patient data in electronic health records
+        (EHRs)&mdash;building on my Ph.D. work in <strong>continual learning for NLP</strong>.
+      </p>
+
+      <div class="thrusts">
+        <div class="thrust">
+          <span class="thrust-num">01</span>
+          <div>
+            <h3>Continual learning: from methods to evolving medical knowledge</h3>
+            <p>Learning new knowledge without catastrophic forgetting: <a
+                href="https://proceedings.mlr.press/v244/zeng24a.html" target="_blank" rel="noopener"
+                title="Dirichlet Continual Learning">DCL</a> (UAI&rsquo;24), <a
+                href="https://aclanthology.org/2025.naacl-long.636/" target="_blank" rel="noopener"
+                title="Prototype Conditioned Generative Replay">PCGR</a> (NAACL&rsquo;25), <a
+                href="https://aclanthology.org/2025.findings-naacl.174/" target="_blank" rel="noopener"
+                title="Task-wrapped Continual Learning">TCL</a> (NAACL&rsquo;25 Findings), and <a
+                href="https://aclanthology.org/2026.eacl-long.37/" target="_blank" rel="noopener"
+                title="Sparse Adapter Fusion Modules">SAFM</a> (EACL&rsquo;26); <a
+                href="https://arxiv.org/abs/2603.16738" target="_blank" rel="noopener"
+                title="MedCL-Bench: Benchmarking stability&ndash;efficiency trade-offs and scaling in biomedical continual learning">MedCL-Bench</a>
+              (preprint) for biomedical continual learning; and
+              <a href="https://arxiv.org/abs/2610.30631" target="_blank" rel="noopener"
+                title="Large language models show systematic failures in incorporating evolving medical knowledge">ChronoEvo</a>
+              (preprint) for evaluating whether LLMs incorporate revised clinical guidelines.</p>
+          </div>
+        </div>
+        <div class="thrust">
+          <span class="thrust-num">02</span>
+          <div>
+            <h3>Longitudinal reasoning over patient trajectories</h3>
+            <p>Reasoning over patient data that evolves across EHR encounters: <a
+                href="https://arxiv.org/abs/2610.02684" target="_blank" rel="noopener"
+                title="Large language models exhibit unreliable updating of clinical judgment as patient evidence evolves">EVLU</a>
+              (preprint) for reliably updating clinical judgment as new evidence arrives, and <a
+                href="https://www.nature.com/articles/s41746-026-03346-2" target="_blank" rel="noopener"
+                title="Early epilepsy detection from electronic health records with large language models">EpiScreen</a>
+              (npj Digital Medicine&rsquo;26) for early epilepsy detection.</p>
+          </div>
+        </div>
+        <div class="thrust">
+          <span class="thrust-num">03</span>
+          <div>
+            <h3>Memory for lifelong LLM systems</h3>
+            <p>Deciding what LLM systems should retain, replace, or forget under limited memory, with applications to
+              longitudinal patient records.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section container news-section">
+      <div class="section-heading">
+        <h2>News</h2>
+      </div>
+      <ul class="news-list">
+        <li><span class="news-date">Oct 2026</span>
+          <span>Serving as Area Chair @ <strong>NAACL 2027</strong> (ARR October 2026).</span>
+        </li>
+        <li><span class="news-date">Oct 2026</span>
+          <span><a href="https://www.nature.com/articles/s41746-026-03317-7" target="_blank"
+              rel="noopener">Large language models for digital mental health: an HCI-centered scoping review</a> is
+            published in <strong>npj Digital Medicine</strong>.</span>
+        </li>
+        <li><span class="news-date">Oct 2026</span>
+          <span><a href="https://www.nature.com/articles/s41746-026-03346-2" target="_blank" rel="noopener">Early
+              epilepsy detection from electronic health records with large language models</a> is published in <strong>npj
+              Digital Medicine</strong>.</span>
+        </li>
+        <li><span class="news-date">Aug 2026</span>
+          <span><a href="https://www.nature.com/articles/s41746-026-03060-z" target="_blank" rel="noopener">Multimodal
+              artificial intelligence agents in healthcare: a scoping review</a> is published in <strong>npj Digital
+              Medicine</strong>.</span>
+        </li>
+        <li><span class="news-date">Jan 2026</span>
+          <span><a href="https://aclanthology.org/2026.eacl-long.37/" target="_blank" rel="noopener">Sparse Adapter
+              Fusion for Continual Learning in NLP</a> is accepted to <strong>EACL 2026</strong>.</span>
+        </li>
+        <li><span class="news-date">Jan 2026</span>
+          <span>Served as Area Chair @ <strong>ACL 2026</strong> (ARR January 2026).</span>
+        </li>
+        <li><span class="news-date">Jun 2025</span>
+          <span>Joined the University of Minnesota as a Postdoctoral Research Associate with Prof. Rui Zhang.</span>
+        </li>
+        <li><span class="news-date">May 2025</span>
+          <span>Completed my Ph.D. at HKUST.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications" class="section container publications-section">
+
+      <div class="publication-heading">
+        <h2>
+          Selected Publications
+          <a href="https://scholar.google.com/citations?user=ADAQvlEAAAAJ&hl=en" target="_blank" rel="noopener"
+            class="full-list-link">
+            [Full List]
+          </a>
+        </h2>
+      </div>
+
+      <p class="pub-note">
+        * Equal contribution.
+      </p>
+
+      <!-- <p class="full-publication-link">
+        Full publication list on
+        <a href="https://scholar.google.com/citations?user=ADAQvlEAAAAJ&hl=en" target="_blank" rel="noopener">
+          Google Scholar
+        </a>.
+      </p> -->
+
+      <h3 class="pub-group">Recent Preprints</h3>
+      <ul class="preprint-list">
+        <li>
+          <span class="publication-title">Large language models show systematic failures in incorporating evolving
+            medical knowledge</span><br>
+          <span class="authors"><strong>Min Zeng</strong>, Zaifu Zhan, Kai Yu, Rui Zhang</span><br>
+          <span class="venue">arXiv, 2026</span>
+          <a href="https://arxiv.org/abs/2610.30631" target="_blank" rel="noopener" title="arXiv"><i
+              class="fas fa-link"></i></a>
+        </li>
+        <li>
+          <span class="publication-title">Large language models exhibit unreliable updating of clinical judgment as
+            patient evidence evolves</span><br>
+          <span class="authors"><strong>Min Zeng</strong>, Rui Zhang</span><br>
+          <span class="venue">arXiv, 2026</span>
+          <a href="https://arxiv.org/abs/2610.02684" target="_blank" rel="noopener" title="arXiv"><i
+              class="fas fa-link"></i></a>
+        </li>
+        <li>
+          <span class="publication-title">MedCL-Bench: Benchmarking stability&ndash;efficiency trade-offs and scaling in
+            biomedical continual learning</span><br>
+          <span class="authors"><strong>Min Zeng</strong>, Shuang Zhou, Zaifu Zhan, Rui Zhang</span><br>
+          <span class="venue">arXiv, 2026</span>
+          <a href="https://arxiv.org/abs/2603.16738" target="_blank" rel="noopener" title="arXiv"><i
+              class="fas fa-link"></i></a>
+        </li>
+      </ul>
+
+      <h3 class="pub-group">AI for Healthcare</h3>
+      <div class="publication-list">
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/lm.png" alt="Large language models for digital mental health">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Large language models for digital mental health: an HCI-centered scoping review
+            </h3>
+            <p class="authors">
+              <strong>Min Zeng</strong>, Zaifu Zhan, Kai Yu, Chao Zeng, Duzhen Zhang, Shuang Zhou, Yu Hou, Mingquan
+              Lin, Rui Zhang
+            </p>
+            <p class="venue">
+              npj Digital Medicine, 2026 (Impact Factor: 18)
+            </p>
+            <div class="pub-links">
+              <a href="https://www.nature.com/articles/s41746-026-03317-7" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/epilepsy.png"
+              alt="Early epilepsy detection from electronic health records with large language models">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Early Epilepsy Detection from Electronic Health Records with Large Language Models
+            </h3>
+            <p class="authors">
+              Shuang Zhou, Kai Yu, Zaifu Zhan, Huixue Zhou, <strong>Min Zeng</strong>, Feng Xie, Zhiyi Sha, Rui Zhang
+            </p>
+            <p class="venue">
+              npj Digital Medicine, 2026 (Impact Factor: 18)
+            </p>
+            <div class="pub-links">
+              <a href="https://www.nature.com/articles/s41746-026-03346-2" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/mmaa-review.png"
+              alt="Multimodal Artificial Intelligence Agents in Healthcare: A Scoping Review">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Multimodal Artificial Intelligence Agents in Healthcare: A Scoping Review
+            </h3>
+            <p class="authors">
+              Kai Yu, Shuang Zhou, Yu Hou, Yiran Song,
+              <strong>Min Zeng</strong>, Fangqiao Tian,
+              Jin Du, Wenya Xie, Biao Yin, You Chen,
+              Feifan Liu, Jie Ding, Zirui Liu,
+              Mingquan Lin, Rui Zhang
+            </p>
+            <p class="venue">
+              npj Digital Medicine, 2026 (Impact Factor: 18)
+            </p>
+            <div class="pub-links">
+              <a href="https://www.nature.com/articles/s41746-026-03060-z" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="pub-group">Continual Learning for Language Models</h3>
+      <div class="publication-list">
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/safm.png" alt="Sparse Adapter Fusion for Continual Learning">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Sparse Adapter Fusion for Continual Learning in NLP
+            </h3>
+            <p class="authors">
+              <strong>Min Zeng*</strong>, Xi Chen*, Haiqin Yang, Yike Guo
+            </p>
+            <p class="venue">
+              Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2026
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2026.eacl-long.37/" target="_blank" rel="noopener">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://github.com/OzymandiasChen/SAFM" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/2026.eacl-long.37.pdf" target="_blank" rel="noopener">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/pcgr.png"
+              alt="Prototype Conditioned Generative Replay for Continual Learning in NLP">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Prototype Conditioned Generative Replay for Continual Learning in NLP
+            </h3>
+            <p class="authors">
+              Xi Chen*, <strong>Min Zeng*</strong>
+            </p>
+            <p class="venue">
+              Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
+              (NAACL), 2025
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2025.naacl-long.636/" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://github.com/OzymandiasChen/PCGR" target="_blank" rel="noopener" title="Code">
+                <i class="fab fa-github"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/2025.naacl-long.636.pdf" target="_blank" rel="noopener" title="PDF">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/tcl.png"
+              alt="Task-Wrapped Continual Learning for Task-Oriented Dialogue Systems">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Task-Wrapped Continual Learning for Task-Oriented Dialogue Systems
+            </h3>
+            <p class="authors">
+              <strong>Min Zeng</strong>, Haiqin Yang, Xi Chen, Yike Guo
+            </p>
+            <p class="venue">
+              Findings of the Annual Conference of the Nations of the Americas Chapter of the Association for
+              Computational Linguistics (NAACL), 2025
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2025.findings-naacl.174/" target="_blank" rel="noopener">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://github.com/cloversjtu/TCL" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/2025.findings-naacl.174.pdf" target="_blank" rel="noopener">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/dcl.png" alt="Dirichlet Continual Learning">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Dirichlet Continual Learning: Tackling Catastrophic Forgetting in NLP
+            </h3>
+            <p class="authors">
+              <strong>Min Zeng</strong>, Haiqin Yang, Wei Xue, Qifeng Liu, Yike Guo
+            </p>
+            <p class="venue">
+              Conference on Uncertainty in Artificial Intelligence (UAI), 2024
+            </p>
+            <div class="pub-links">
+              <a href="https://proceedings.mlr.press/v244/zeng24a.html">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://openreview.net/forum?id=jve2maFPzf">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="pub-group">Earlier Work in NLP</h3>
+      <div class="publication-list">
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/vhred.png"
+              alt="Dirichlet Latent Variable Hierarchical Recurrent Encoder-Decoder in Dialogue Generation">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Dirichlet Latent Variable Hierarchical Recurrent Encoder-Decoder in Dialogue Generation
+            </h3>
+            <p class="authors">
+              <strong>Min Zeng</strong>, Yisen Wang, Yuan Luo
+            </p>
+            <p class="venue">
+              Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/D19-1124/" target="_blank" rel="noopener">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://github.com/cloversjtu/dir-vhred" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/D19-1124.pdf" target="_blank" rel="noopener">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/clozer.png"
+              alt="Clozer: Adaptable Data Augmentation for Cloze-style Reading Comprehension">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              Clozer: Adaptable Data Augmentation for Cloze-style Reading Comprehension
+            </h3>
+            <p class="authors">
+              Holy Lovenia*, Bryan Wilie*, Willy Chung*,
+              <strong>Min Zeng*</strong>, Samuel Cahyawijaya,
+              Dan Su, Pascale Fung
+            </p>
+            <p class="venue">
+              Proceedings of the 7th Workshop on Representation Learning for NLP (RepL4NLP @ ACL), 2022
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2022.repl4nlp-1.7/" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/2022.repl4nlp-1.7.pdf" target="_blank" rel="noopener" title="PDF">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-image">
+            <img src="assets/publications/rho.png"
+              alt="RHO: Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding">
+          </div>
+          <div>
+            <h3 class="publication-title">
+              RHO: Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding
+            </h3>
+            <p class="authors">
+              Ziwei Ji, Zihan Liu, Nayeon Lee, Tiezheng Yu, Bryan Wilie,
+              <strong>Min Zeng</strong>, Pascale Fung
+            </p>
+            <p class="venue">
+              Findings of the Annual Meeting of the Association for Computational Linguistics (ACL), 2023
+            </p>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2023.findings-acl.275/" target="_blank" rel="noopener" title="Paper">
+                <i class="fas fa-link"></i>
+              </a>
+              /
+              <a href="https://github.com/ziweiji/RHO" target="_blank" rel="noopener" title="Code">
+                <i class="fab fa-github"></i>
+              </a>
+              /
+              <a href="https://aclanthology.org/2023.findings-acl.275.pdf" target="_blank" rel="noopener" title="PDF">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+
+
+    <section id="services" class="section container">
+      <div class="section-heading">
+        <h2>Services</h2>
+      </div>
+
+      <div class="services-list">
+        <p>
+          <strong>Conference Area Chair:</strong>
+          ARR October 2026 (NAACL 2027), ARR January 2026 (ACL 2026)
+        </p>
+
+        <p>
+          <strong>Conference Reviewers:</strong>
+          ICLR, ACL, EMNLP, NAACL, UAI, EACL
+        </p>
+
+        <p>
+          <strong>Journal Reviewers:</strong>
+          IEEE TASLP, npj Digital Medicine, npj Health Systems
+        </p>
+
+        <p>
+          <strong>Academic Service:</strong>
+          AMIA 2025 NLP Year-in-Review Volunteer
+        </p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© <span id="year"></span> Min Zeng</span>
+
+      <span>
+        <a href="https://jonbarron.info/" target="_blank">
+          Website template
+        </a>
+        &nbsp;|&nbsp;
+        Last updated: October 2026
+      </span>
+    </div>
+  </footer>
+
+
+
+
+  <script src="assets/main.js?v=20261015"></script>
+</body>
+
+</html>
